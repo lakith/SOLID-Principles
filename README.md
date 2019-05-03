@@ -22,3 +22,16 @@ Imagine you had SetWidth and SetHeight methods on your Rectangle base class; thi
 <br/>
 ![Liskov Substitution Principle](https://1.bp.blogspot.com/-Krp8u7RTb8I/WFqA6Y7kfNI/AAAAAAAACyE/tm3jMnQE_1gnWt9Rwwf95iKGBXcE4QEkACLcB/s1600/LSP_WithText-mallard-duck.jpg)
 
+### interface segregation principle.
+Similar to the Single Responsibility Principle, the goal of the Interface Segregation Principle is to reduce the side effects and frequency of required changes by splitting the software into multiple, independent parts.
+<br/>
+As Per the We introduce a Interface to perform document related works. First machine, interface violates the interface segregation principle, because in this principle we must not include all the funcinalities in a single interface. according to the code, if we want a printer that only perform the printing, if we use the first interface, we should implement other two functinalities inside that code, and its not necessory. Because it does not perform scanning or faxing. In a better design we should split these functionalities into diffrent interfaces. 
+
+![interface segregation principle](https://4.bp.blogspot.com/-z9uPLDKMN2o/WmnophiErMI/AAAAAAAAKQ8/KyCrLwN20Iorkw73TNJbzog0kJbHWDZ_gCLcBGAs/s400/OOP%2B-%2BInterface%2BSegregation%2BPrinciple.jpg)
+
+ 
+
+
+
+
+
