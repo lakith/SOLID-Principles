@@ -43,6 +43,7 @@ As Per the Code We introduce a Interface to perform document related works. Firs
 
 The general idea of this principle is as simple as it is important: High-level modules, which provide complex logic, should be easily reusable and unaffected by changes in low-level modules, which provide utility features. To achieve that, you need to introduce an abstraction that decouples the high-level and low-level modules from each other.
 <br/>
+![Dependency Inversion Principle](https://i0.wp.com/blogs.innovationm.com/wp-content/uploads/2017/11/DependencyInversionPrinciple.jpg?fit=750%2C600)
 <br/>
 Based on this idea, Robert C. Martin’s definition of the Dependency Inversion Principle consists of two parts:
 <br/>
@@ -55,7 +56,7 @@ An important detail of this definition is, that high-level and low-level modules
 * The high-level module depends on the abstraction.
 * The low-level depends on the same abstraction.
 <br />
-![Dependency Inversion Principle](https://i0.wp.com/blogs.innovationm.com/wp-content/uploads/2017/11/DependencyInversionPrinciple.jpg?fit=750%2C600)
+
 
 ## Summery
 
