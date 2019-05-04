@@ -55,8 +55,6 @@ An important detail of this definition is, that high-level and low-level modules
 * The high-level module depends on the abstraction.
 * The low-level depends on the same abstraction.
 <br/>
-(https://stackify.com/solid-design-principles/)
-<br/>
 ![Dependency Inversion Principle](https://i0.wp.com/blogs.innovationm.com/wp-content/uploads/2017/11/DependencyInversionPrinciple.jpg?fit=750%2C600)
 
 ## Summery
