@@ -35,9 +35,43 @@ As Per the We introduce a Interface to perform document related works. First mac
 
 ![interface segregation principle](https://4.bp.blogspot.com/-z9uPLDKMN2o/WmnophiErMI/AAAAAAAAKQ8/KyCrLwN20Iorkw73TNJbzog0kJbHWDZ_gCLcBGAs/s400/OOP%2B-%2BInterface%2BSegregation%2BPrinciple.jpg)
 
- 
+ ### Dependency Inversion Principle.
+
+The general idea of this principle is as simple as it is important: High-level modules, which provide complex logic, should be easily reusable and unaffected by changes in low-level modules, which provide utility features. To achieve that, you need to introduce an abstraction that decouples the high-level and low-level modules from each other.
+<br/>
+<br/>
+Based on this idea, Robert C. Martin’s definition of the Dependency Inversion Principle consists of two parts:
+<br/>
+*High-level modules should not depend on low-level modules.
+*Both should depend on abstractions.
+<br/>
+<br/>
+Abstractions should not depend on details. Details should depend on abstractions.
+An important detail of this definition is, that high-level and low-level modules depend on the abstraction. The design principle does not just change the direction of the dependency, as you might have expected when you read its name for the first time. It splits the dependency between the high-level and low-level modules by introducing an abstraction between them. So in the end, you get two dependencies:
+<br/>
+*The high-level module depends on the abstraction, and
+*The low-level depends on the same abstraction.
+
+![Dependency Inversion Principle](https://i0.wp.com/blogs.innovationm.com/wp-content/uploads/2017/11/DependencyInversionPrinciple.jpg?fit=750%2C600)
+
+##Summery
+
+#### Single Responsibility Principle.
+*A Class Should only have One Reason TO Change
+*Separation Of Concerns - Different classes handling different, independent tasks/problems
 
 
+#### Open-Closed Principle.
+*Classes should be open for extension but closed for modification.
 
 
+#### Liskov Substitution Principle. 
+*You Should be able to substitute a base type for a subtype.
+
+#### Interface Segregation Principle.
+*Don't Put too much into an interface, Split into Separate Interfaces.
+*YAGNI - You Ain't Goning to need it.
+
+#### Dependancy Inversion Principle. 
+*High-level modules should not depend upon low-level ones; Use Abstractions.
 
