@@ -42,8 +42,8 @@ The general idea of this principle is as simple as it is important: High-level m
 <br/>
 Based on this idea, Robert C. Martin’s definition of the Dependency Inversion Principle consists of two parts:
 <br/>
-*High-level modules should not depend on low-level modules.
-*Both should depend on abstractions.
+* High-level modules should not depend on low-level modules.
+* Both should depend on abstractions.
 <br/>
 <br/>
 Abstractions should not depend on details. Details should depend on abstractions.
