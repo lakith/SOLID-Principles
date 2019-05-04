@@ -49,29 +49,29 @@ Based on this idea, Robert C. Martin’s definition of the Dependency Inversion 
 Abstractions should not depend on details. Details should depend on abstractions.
 An important detail of this definition is, that high-level and low-level modules depend on the abstraction. The design principle does not just change the direction of the dependency, as you might have expected when you read its name for the first time. It splits the dependency between the high-level and low-level modules by introducing an abstraction between them. So in the end, you get two dependencies:
 <br/>
-*The high-level module depends on the abstraction, and
-*The low-level depends on the same abstraction.
+* The high-level module depends on the abstraction, and 
+* The low-level depends on the same abstraction.
 
 ![Dependency Inversion Principle](https://i0.wp.com/blogs.innovationm.com/wp-content/uploads/2017/11/DependencyInversionPrinciple.jpg?fit=750%2C600)
 
 ##Summery
 
 #### Single Responsibility Principle.
-*A Class Should only have One Reason TO Change
-*Separation Of Concerns - Different classes handling different, independent tasks/problems
+* A Class Should only have One Reason TO Change
+* Separation Of Concerns - Different classes handling different, independent tasks/problems
 
 
 #### Open-Closed Principle.
-*Classes should be open for extension but closed for modification.
+* Classes should be open for extension but closed for modification.
 
 
 #### Liskov Substitution Principle. 
-*You Should be able to substitute a base type for a subtype.
+* You Should be able to substitute a base type for a subtype.
 
 #### Interface Segregation Principle.
-*Don't Put too much into an interface, Split into Separate Interfaces.
-*YAGNI - You Ain't Goning to need it.
+* Don't Put too much into an interface, Split into Separate Interfaces.
+* YAGNI - You Ain't Goning to need it.
 
 #### Dependancy Inversion Principle. 
-*High-level modules should not depend upon low-level ones; Use Abstractions.
+* High-level modules should not depend upon low-level ones; Use Abstractions.
 
